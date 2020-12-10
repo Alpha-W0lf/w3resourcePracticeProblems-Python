@@ -1,4 +1,4 @@
-# Write a function that takes a number as a parameter and check if the number is prime or not.
+# Write a function that takes a number as a parameter and check if the number is prime or not. DONE
 
 
 def find_prime(num):
