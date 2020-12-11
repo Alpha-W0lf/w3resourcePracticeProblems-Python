@@ -6,7 +6,7 @@ raw_seq = input('Enter a sequence of numbers separated by commas: ')
 # list_seq = list(raw_seq)
 # for x in list_seq:
 #     if x == ' ':
-#         list_seq.remove(x)
+#         list_seq.remove(x)      ## Not sure why ' ' isn't removing spaces.
 #     elif x == ',':
 #         list_seq.remove(x)
 #     else:
