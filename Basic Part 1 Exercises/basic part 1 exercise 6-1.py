@@ -15,6 +15,11 @@ raw_seq = input('Enter a sequence of numbers separated by commas: ')
 # tuple_seq = tuple(list_seq)
 # print(list_seq)
 # print(tuple_seq)
+#
+# list_seq = raw_seq.split(', ')
+# tuple_seq = tuple(list_seq)
+# print(list_seq)
+# print(tuple_seq)
 
 list_seq = raw_seq.split(', ')
 tuple_seq = tuple(list_seq)
