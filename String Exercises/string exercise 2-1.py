@@ -2,12 +2,12 @@
 
 phrase = str(input('Enter a phrase: '))
 
-all_freq = {}
+all_count = {}
 
 for i in phrase:
-    if i in all_freq:
-        all_freq[i] += 1
+    if i in all_count:
+        all_count[i] += 1
     else:
-        all_freq[i] = 1
+        all_count[i] = 1
 
-print (all_freq)
+print(all_count)
