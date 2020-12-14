@@ -3,13 +3,14 @@
 # Sample String : 'abc', 'xyz'
 # Expected Result : 'xyc abz'
 
-string_1 = str(input('Enter the first string: '))
-string_2 = str(input('Enter the second string: '))
+# string_1 = str(input('Enter the first string: '))
+# string_2 = str(input('Enter the second string: '))
 
 
-def char_change_1():
+def char_change(string_1, string_2):
     char1 = string_1[0]
-
-
-def char_change_2():
     char2 = string_2[0]
+    print(char2+string_1[1:], char1+string_2[1:])
+
+
+char_change('bou', 'yut')
