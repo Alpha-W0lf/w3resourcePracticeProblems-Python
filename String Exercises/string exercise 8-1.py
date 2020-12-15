@@ -28,9 +28,10 @@
 #
 # return_longest(given)
 
-# Clumsy/inefficient way ^^ Going to redo below.
+# Clumsy/inefficient way ^^ Going to redo below. DONE
 
 given = ['list', 'are', 'festival', 'edm']
 given.sort(key=len)
+print(given)
 print('The longest word is \"' + given[-1] + '\".')
-print(given.len())
+print('The length of this word is:', len(given[-1]))
