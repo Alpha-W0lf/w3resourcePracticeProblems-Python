@@ -4,12 +4,12 @@
 # Length of the longest word: 9
 
 given = ['list', 'are', 'festival', 'edm']
-given_len = []
 
 
 def return_longest(words):
+    given_len = []
     for x in given:
-        given_len = len(x)
+        given_len.append(len(x))
         print(x)
         print(given_len)
 
