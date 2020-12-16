@@ -2,11 +2,13 @@
 
 import json
 
-with open('states.json') as json_file:
-    x = json.load(json_file)
+with open('states.json') as f:
+    x = json.load(f)
 
-# print(x)
+for state in x['states']:
+    del state['area_codes']
 
-y = json.dumps(x, indent=2)
+with open('new_states.json', 'w') as f:
+    json.dump(x, f, indent=2)
 
-print(y)
+print(new_states.json)
