@@ -1,4 +1,4 @@
-# Write a program to create a new JSON file from an existing JSON file.
+# Write a program to create a new JSON file from an existing JSON file. DONE
 
 import json
 
@@ -11,4 +11,4 @@ for state in x['states']:
 with open('new_states.json', 'w') as f:
     json.dump(x, f, indent=2)
 
-print(new_states.json)
+# TODO - Need to revisit/keep practicing JSON
