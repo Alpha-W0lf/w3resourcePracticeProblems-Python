@@ -10,3 +10,5 @@ area = math.pi * (radius ** 2)
 area_rounded = ("%.2f" % area)
 
 print('The area of the circle is', area_rounded)
+
+# DONE
