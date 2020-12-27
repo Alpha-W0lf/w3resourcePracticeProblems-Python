@@ -12,9 +12,17 @@ def strange_add(given, length):
     given = str(given)
 
     while count <= length:
-        answer_list.append(given*count)
+        concat = given*count
+        answer_list.append(int(concat))
         count += 1
     print(sum(answer_list))
 
 
+n1 = int("%s" % n)
+n2 = int("%s%s" % (n,n))
+n3 = int("%s%s%s" % (n,n,n))
+
+print('Reproducing solution:', n1+n2+n3)
 strange_add(n, digits)
+
+# DONE
