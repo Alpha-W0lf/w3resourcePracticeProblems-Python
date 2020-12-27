@@ -4,6 +4,7 @@
 
 exam_st_date = (11, 12, 2014)
 
-print(exam_st_date[0], '/', exam_st_date[1], '/', exam_st_date[2], sep='')
+print('The exam will start: ', exam_st_date[0], '/', exam_st_date[1], '/', exam_st_date[2], sep='')
+print('The exam will start: %i/%i/%i' % exam_st_date)
 
 # DONE
