@@ -7,11 +7,16 @@ given = str(input('Enter a string: '))
 first_char = given[:1]
 print(first_char)
 
-for x in given[1:]:
-    if x == first_char:
-        x = '$'
-        print(x)
-    else:
-        continue
+# for x in given[1:]:
+#     if x == first_char:
+#         x = '$'
+#         print(x)
+#     else:
+#         continue
+#
+# print(given)
 
+answer = given[1:].replace(given[:1], '$')
 print(given)
+print(first_char+answer)
+
