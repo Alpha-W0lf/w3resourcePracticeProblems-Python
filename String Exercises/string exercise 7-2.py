@@ -9,8 +9,13 @@
 
 def sub_find(given):
     if given.find('not') == True:
+        not_loc = given.find('not')
         if given.find('poor') == True:
-
+            poor_loc = given.find('poor')
+            if not_loc < poor_loc:
+                print("PROGRESS")
+            else:
+                continue
         else:
             continue
     else:
