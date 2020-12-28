@@ -8,18 +8,17 @@
 # 'The lyrics is poor!'
 
 def sub_find(given):
-    if given.find('not') == True:
+    if given.find('not') >= 0:
         not_loc = given.find('not')
-        if given.find('poor') == True:
+        if given.find('poor', not_loc) >= 0:
             poor_loc = given.find('poor')
-            if not_loc < poor_loc:
-                print("PROGRESS")
-            else:
-                continue
+            given_new = given.replace('poor', 'good')
+            print(given[:not_loc]+given_new[poor_loc:])
+            print(given_new)
         else:
-            continue
+            print(given)
     else:
-        continue
+        print(given)
 
 
 sub_find('The lyrics is not that poor!')
