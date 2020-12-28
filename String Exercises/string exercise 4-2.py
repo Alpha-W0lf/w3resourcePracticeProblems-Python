@@ -20,3 +20,4 @@ answer = given[1:].replace(given[:1], '$')
 print(given)
 print(first_char+answer)
 
+# DONE
