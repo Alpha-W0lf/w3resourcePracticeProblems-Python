@@ -27,7 +27,8 @@ def sub_repl(given):
     poor_loc = given.find('poor')
 
     if not_loc < poor_loc and not_loc >= 0 and poor_loc >= 0:
-        answer = given[:not_loc]+given.replace('poor', 'good')
+        given = given.replace('poor', 'good')
+        answer = given[:not_loc]+given[poor_loc:]
         print(answer)
     else:
         print(given)
