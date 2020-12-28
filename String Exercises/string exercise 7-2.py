@@ -8,7 +8,13 @@
 # 'The lyrics is poor!'
 
 def sub_find(given):
-    
+    if given.find('not') == True:
+        if given.find('poor') == True:
+
+        else:
+            continue
+    else:
+        continue
 
 
 sub_find('The lyrics is not that poor!')
