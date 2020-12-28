@@ -12,9 +12,8 @@ def sub_find(given):
         not_loc = given.find('not')
         if given.find('poor', not_loc) >= 0:
             poor_loc = given.find('poor')
-            given_new = given.replace('poor', 'good')
-            print(given[:not_loc]+given_new[poor_loc:])
-            print(given_new)
+            given = given.replace('poor', 'good')
+            print(given[:not_loc]+given[poor_loc:])
         else:
             print(given)
     else:
