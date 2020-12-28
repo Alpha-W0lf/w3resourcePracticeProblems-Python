@@ -18,13 +18,19 @@
 #
 # char_count(given)
 
+# Redoing it to practice more! \|/ \|/
 
 given = str(input("Enter a string: "))
 
 def char_count(string):
     given_dict = {}
-    for x in given_dict:
-        
+    for x in string:
+        keys = given_dict.keys()
+        if x in keys:
+            given_dict[x] += 1
+        else:
+            given_dict[x] = 1
+    print(given_dict)
 
 char_count(given)
 
