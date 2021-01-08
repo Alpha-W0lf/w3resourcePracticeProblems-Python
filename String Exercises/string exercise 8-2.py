@@ -3,4 +3,11 @@
 # Longest word: Exercises
 # Length of the longest word: 9
 
-def longest_word()
+list_of_words = []
+
+# we can assigned a variable to "longest" or we can create a dictionary to keep track of word lengths
+
+def longest_word(given):
+
+
+longest_word(list_of_words)
