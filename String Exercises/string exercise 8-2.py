@@ -5,9 +5,11 @@
 
 list_of_words = []
 
+
 # we can assigned a variable to "longest" or we can create a dictionary to keep track of word lengths
 
 def longest_word(given):
+    print(list_of_words)
 
 
 longest_word(list_of_words)
