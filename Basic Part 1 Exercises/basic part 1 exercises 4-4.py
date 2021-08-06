@@ -7,8 +7,6 @@
 
 import math
 
-r = float(input("Enter the radius of the circle:"))
-
-area = (math.pi * r * r)
-
-print("The area for a circle with radius" + r + "is" + area)
+r = float(input("Enter the radius of your circle: "))
+area = (r ** 2) * math.pi
+print("The area of your circle is: " + str(area))
