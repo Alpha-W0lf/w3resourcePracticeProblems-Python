@@ -16,14 +16,15 @@ print(last_list)
 def first_list_to_string(x):
     first_rev = ""
     for letter in x:
-        first_rev = first_rev + letter
-    return first_rev
+        first_rev = first_rev + " " + letter
+    return first_rev[1:]
+
 
 def last_list_to_string(y):
     last_rev = ""
     for letter in y:
-        last_rev = last_rev + letter
-    return last_rev
+        last_rev = last_rev + " " + letter
+    return last_rev[1:]
 
 # x = first_list
 # y = last_list
