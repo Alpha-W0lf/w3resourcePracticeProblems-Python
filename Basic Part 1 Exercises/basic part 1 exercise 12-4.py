@@ -3,3 +3,7 @@
 
 import calendar
 
+def converter(yy, mm):
+    print(calendar.month(yy, mm))
+
+converter(2007, 12)

@@ -1,4 +1,4 @@
-# Write a program to print the calendar of a given month and year. TODO
+# Write a program to print the calendar of a given month and year.
 
 import calendar
 
