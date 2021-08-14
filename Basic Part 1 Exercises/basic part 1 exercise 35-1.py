@@ -3,3 +3,13 @@
 x = int(input("Enter an integer: "))
 y = int(input("Enter another integer: "))
 
+sum = x + y
+difference = abs(x - y)
+
+print("Sum:", sum, "Difference:", difference)
+
+if sum == 5 or difference == 5 or difference == 0:
+    answer = True
+else:
+    answer = False
+print(answer)
