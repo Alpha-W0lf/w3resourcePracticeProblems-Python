@@ -9,3 +9,5 @@ print(age)
 print(address)
 
 print(name + "\n" + age + "\n" + address)
+
+print("Name: {}\nAge: {}\nAddress: {}".format(name, age, address))
