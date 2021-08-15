@@ -3,7 +3,11 @@
 # statistics can be formatted into reports via the pstats module.
 
 import cProfile
-import pstats
 
-cProfile.run("foo()")
-print(pstats.Stats)
+
+def funct(x, y):
+    answer = x * y
+    print(answer)
+
+
+cProfile.run("funct(2, 3)")
