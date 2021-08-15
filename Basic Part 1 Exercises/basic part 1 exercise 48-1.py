@@ -2,6 +2,8 @@
 
 given = input("Enter a number: ")
 
+print(type(given))
+
 given = float(given)
 print(given, "is now a float.")
 
