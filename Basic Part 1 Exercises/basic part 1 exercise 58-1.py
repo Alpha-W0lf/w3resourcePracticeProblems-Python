@@ -12,3 +12,8 @@ def sum_num(n):
 
 n = 7
 sum_num(n)
+
+
+x = int(input("Enter a positive integer: "))
+sum_x = (x * (x + 1)) / 2
+print("The sum of the first", x, "positive integers is:", int(sum_x))
