@@ -1,7 +1,5 @@
 # Write a Python program to convert seconds to day, hour, minutes and seconds.
 
-import time
-
 given = int(input("Enter number of seconds: "))
 
 days = given / (3600 * 24)
@@ -19,3 +17,4 @@ remainder = remainder % 60
 seconds = remainder
 
 print("That number of seconds is equal to", days, "days,", hours, "hours,", minutes, "minutes, and", seconds, "seconds.")
+print("dd:hh:mm:ss -> %d:%d:%d:%d" % (days, hours, minutes, seconds))
